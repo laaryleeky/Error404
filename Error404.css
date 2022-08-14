@@ -1,0 +1,52 @@
+body{
+ font-family: 'Poppins', sans-serif;
+ box-sizing: border-box;
+}
+.wrapper{
+ display: flex;
+ justify-content:space-between;
+ align-items: center;
+ position: relative;
+ top: 70px;
+ margin: 50px;
+}
+.info{
+ align-content: center;
+ padding: 30px;
+ margin: 20px;
+ width: 50vw;
+}
+p{
+ font-weight: 500;
+}
+a{
+ text-decoration: none;
+ padding: 10px;
+ font-weight: 500;
+ background: #333333;
+ color: white;
+}
+h3{
+ position: relative;
+ top: 20px;
+ left: 20px;
+}
+.scarecrow{
+ width: 50%;
+ margin: 20px;
+}
+img{
+ width: 45vw;
+}
+@media(max-width: 750px){
+.wrapper{
+ display: grid;
+}
+a{
+ text-decoration: none;
+ padding: 8px;
+ font-weight: 400;
+ background: #333333;
+ color: white;
+}
+}
